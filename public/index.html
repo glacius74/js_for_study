@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Моё Node-приложение!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="title">TODO</div>
+      <div class="input-box">
+        <form action="/get">
+          <input type="text" placeholder="Create a new todo" id="todo-add-input" name="todo-input">
+        </form>
+      </div>
+      <div class="todo-list">
+        <div class="todo-item">
+          <input type="checkbox">
+          <span>task</span>
+        </div>
+        <div class="todo-item">
+          <input type="checkbox">
+          <span>task</span>
+        </div>
+        <div class="todo-item">
+          <input type="checkbox">
+          <span>task</span>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="row">
+          <div class="left-box items-left">
+            <p>5 items left</p>
+          </div>
+          <div class="center-box filter">
+            <span>All</span>
+            <span>Active</span>
+            <span>Completed</span>
+          </div>
+          <div class="right-box clear-completed">
+            <p>Clear Completed</p>
+          </div>
+        </div>
+      </div>
+      <div class="hint">
+        <p>Drag and Drop to reorder list</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
